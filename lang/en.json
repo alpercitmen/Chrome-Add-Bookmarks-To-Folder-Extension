@@ -2,5 +2,8 @@
   "folderNameLabel": "Folder Name",
   "header": "Add Bookmark",
   "addAllTabsToFolder": "Add All Tabs To Folder",
-  "addSelectedTabsToFolder": "Add Selected Tabs To Folder"
+  "addSelectedTabsToFolder": "Add Selected Tabs To Folder",
+  "goToOptions": "Go To Options",
+  "default_folder_name_label": "Default Folder Name",
+  "save_button": "Save"
 }

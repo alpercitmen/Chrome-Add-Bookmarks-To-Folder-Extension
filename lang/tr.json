@@ -2,5 +2,8 @@
   "folderNameLabel": "Klasör Adı",
   "header": "Yer İmi Ekle",
   "addAllTabsToFolder": "Tüm Sekmeleri Klasöre Ekle",
-  "addSelectedTabsToFolder": "Seçili Sekmeleri Klasöre Ekle"
+  "addSelectedTabsToFolder": "Seçili Sekmeleri Klasöre Ekle",
+  "goToOptions": "Ayarları Aç",
+  "default_folder_name_label": "Varsayılan Klasör Adı",
+  "save_button": "Kaydet"
 }

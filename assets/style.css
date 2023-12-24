@@ -59,3 +59,23 @@ h3{
     color: aquamarine;
     text-decoration: none;
 }
+
+#goToOptions {
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+/* Bootstrap 4 ve sonrası float sınıfları */
+.float-left {
+    float: left !important;
+    text-align: left !important;
+}
+
+.float-right {
+    float: right !important;
+    text-align: right !important;
+}
+
+.flex-auto {
+    flex: auto !important;
+}

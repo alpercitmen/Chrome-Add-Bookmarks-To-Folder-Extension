@@ -45,8 +45,10 @@ function createBookmarkFolder(callback) {
     });
 }
 
-document.getElementById('addAllTabsToFolder').addEventListener('click', addAllTabsToFolder);
-document.getElementById('addSelectedTabsToFolder').addEventListener('click', addSelectedTabsToFolder);
+if (document.getElementById('addAllTabsToFolder'))
+    document.getElementById('addAllTabsToFolder').addEventListener('click', addAllTabsToFolder);
+if (document.getElementById('addSelectedTabsToFolder'))
+    document.getElementById('addSelectedTabsToFolder').addEventListener('click', addSelectedTabsToFolder);
 
 function addAllTabsToFolder() {
     getAllTabs(function (folderId, selectedTabs) {
@@ -86,6 +88,7 @@ function updateContent() {
     document.getElementById('header').innerText = window.languageData.header;
     document.getElementById('addAllTabsToFolder').innerText = window.languageData.addAllTabsToFolder;
     document.getElementById('addSelectedTabsToFolder').innerText = window.languageData.addSelectedTabsToFolder;
+    document.getElementById('goToOptions').title = window.languageData.goToOptions;
 }
 
 // Get the browser language and load the language file
@@ -98,7 +101,22 @@ function initMultilingual() {
             // if the language file is not found, default to english
             return loadLanguageFile('en').then(updateContent);
         });
+
+    // Get the default folder name from chrome storage
+    chrome.storage.sync.get(['default_folder_name'], function (result) {
+        var defaultFolderName = result.default_folder_name;
+        document.getElementById('folder_name').value = defaultFolderName;
+    });
 }
 
 // Initialize the script
 window.addEventListener('DOMContentLoaded', initMultilingual);
+
+// Open the options page
+document.querySelector('#goToOptions').addEventListener('click', function () {
+    if (chrome.runtime.openOptionsPage) {
+        chrome.runtime.openOptionsPage();
+    } else {
+        window.open(chrome.runtime.getURL('options.html'));
+    }
+});
