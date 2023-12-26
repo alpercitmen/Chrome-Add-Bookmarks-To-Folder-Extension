@@ -72,7 +72,6 @@ function addTabsToFolder(folderId, tabs) {
     });
 }
 
-
 // language
 function loadLanguageFile(language) {
     return fetch(`/lang/${language}.json`)
