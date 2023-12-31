@@ -105,7 +105,7 @@ function initMultilingual() {
     // Get the default folder name from chrome storage
     chrome.storage.sync.get(['default_folder_name'], function (result) {
         var defaultFolderName = result.default_folder_name;
-        document.getElementById('folder_name').value = defaultFolderName;
+        document.getElementById('folder_name').placeholder = defaultFolderName;
     });
 }
 
