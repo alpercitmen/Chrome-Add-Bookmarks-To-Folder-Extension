@@ -17,7 +17,8 @@
             "matches": [
                 "https://developer.chrome.com/docs/extensions/*",
                 "https://developer.chrome.com/docs/webstore/*"
-            ]
+            ],
+            "run_at": "document_end"
         }
     ],
     "icons": {

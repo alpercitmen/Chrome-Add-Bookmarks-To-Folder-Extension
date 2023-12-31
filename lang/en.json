@@ -5,5 +5,6 @@
   "addSelectedTabsToFolder": "Add Selected Tabs To Folder",
   "goToOptions": "Go To Options",
   "default_folder_name_label": "Default Folder Name",
-  "save_button": "Save"
+  "save_button": "Save",
+  "tabsAddedMessage": "Tabs Added Successfully"
 }

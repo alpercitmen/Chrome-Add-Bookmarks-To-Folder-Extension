@@ -1,0 +1,10 @@
+{
+  "folderNameLabel": "Nom du dossier",
+  "header": "Ajouter un signet",
+  "addAllTabsToFolder": "Ajouter tous les onglets au dossier",
+  "addSelectedTabsToFolder": "Ajouter les onglets sélectionnés au dossier",
+  "goToOptions": "Aller aux options",
+  "default_folder_name_label": "Nom du dossier par défaut",
+  "save_button": "Enregistrer",
+  "tabsAddedMessage": "Onglets ajoutés au dossier"
+}

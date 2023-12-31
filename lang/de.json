@@ -1,0 +1,10 @@
+{
+  "folderNameLabel": "Ordnername",
+  "header": "Lesezeichen hinzufügen",
+  "addAllTabsToFolder": "Alle Tabs zum Ordner hinzufügen",
+  "addSelectedTabsToFolder": "Ausgewählte Tabs zum Ordner hinzufügen",
+  "goToOptions": "Zu den Optionen gehen",
+  "default_folder_name_label": "Standardordnername",
+  "save_button": "Speichern",
+  "tabsAddedMessage": "Tabs hinzugefügt!"
+}

@@ -70,6 +70,7 @@ function addTabsToFolder(folderId, tabs) {
             'url': tab.url
         });
     });
+    alert(window.languageData.tabsAddedMessage);
 }
 
 // language

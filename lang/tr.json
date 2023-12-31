@@ -5,5 +5,6 @@
   "addSelectedTabsToFolder": "Seçili Sekmeleri Klasöre Ekle",
   "goToOptions": "Ayarları Aç",
   "default_folder_name_label": "Varsayılan Klasör Adı",
-  "save_button": "Kaydet"
+  "save_button": "Kaydet",
+  "tabsAddedMessage": "Sekmeler Klasöre Eklendi"
 }
