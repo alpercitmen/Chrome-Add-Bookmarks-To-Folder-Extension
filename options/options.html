@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>Add Bookmark Options</title>
+    <link rel="stylesheet" href="../assets/style.css">
   </head>
   <body style="display: grid; place-items: center; margin: 0;">
-    <label for="default_folder_name" id="default_folder_name_label"></label>
-    <input type="text" name="default_folder_name" id="default_folder_name">
+    <label for="default_folder_name" id="default_folder_name_label" class="default_folder_name_label"></label>
+    <input type="text" name="default_folder_name" id="default_folder_name" class="default_folder_name">
     
-    <div id="status"></div>
-    <button id="save_button">Save</button>
+    <div class="status" id="status"></div>
+    <button class="save_button" id="save_button">Save</button>
 
     <script src="options.js"></script>
   </body>

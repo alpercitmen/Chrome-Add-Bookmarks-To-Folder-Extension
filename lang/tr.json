@@ -6,5 +6,6 @@
   "goToOptions": "Ayarları Aç",
   "default_folder_name_label": "Varsayılan Klasör Adı",
   "save_button": "Kaydet",
-  "tabsAddedMessage": "Sekmeler Klasöre Eklendi"
+  "tabsAddedMessage": "Sekmeler Klasöre Eklendi",
+  "optionsSavedMessage": "Ayarlar Kaydedildi"
 }

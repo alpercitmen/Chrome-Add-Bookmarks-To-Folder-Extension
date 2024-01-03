@@ -71,6 +71,8 @@ function addTabsToFolder(folderId, tabs) {
         });
     });
     alert(window.languageData.tabsAddedMessage);
+    // close the popup
+    window.close();
 }
 
 // language

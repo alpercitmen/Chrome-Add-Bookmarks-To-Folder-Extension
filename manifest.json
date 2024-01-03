@@ -22,10 +22,10 @@
         }
     ],
     "icons": {
-        "16": "icons/icon16s.png",
-        "32": "icons/icon32s.png",
-        "48": "icons/icon48s.png",
-        "128": "icons/icon128s.png"
+        "16": "icons/icon_15.png",
+        "32": "icons/icon_13.png",
+        "48": "icons/icon_11.png",
+        "128": "icons/icon_9.png"
     },
     "options_page": "options/options.html",
     "background": {

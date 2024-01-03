@@ -39,6 +39,13 @@ h3{
     width: -webkit-fill-available;
 }
 
+.addSelectedTabsToFolder:hover,
+.addAllTabsToFolder:hover {
+    background-color: #555;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+}
+
 .header,
 .cofee_link,
 .form{
@@ -78,4 +85,38 @@ h3{
 
 .flex-auto {
     flex: auto !important;
+}
+
+.default_folder_name_label{
+    padding: 5px;
+    font-size: large;
+}
+.default_folder_name{
+    border-radius: 13px;
+    padding: 7px;
+    font-size: medium;
+    text-align: center;
+}
+.default_folder_name:focus{
+    border-color: aquamarine;
+    outline: none;
+}
+.status{
+    padding: 5px;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    color: antiquewhite;
+}
+.save_button{
+    margin: 7px;
+    padding: 7px 11px 7px 11px;
+    border-radius: 5px;
+    border: 2px solid #14705f;
+    cursor: pointer;
+}
+
+.save_button:hover{
+    background-color: #14705f;
+    color: antiquewhite;
 }

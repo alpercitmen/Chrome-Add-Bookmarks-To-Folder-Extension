@@ -6,5 +6,6 @@
   "goToOptions": "Aller aux options",
   "default_folder_name_label": "Nom du dossier par défaut",
   "save_button": "Enregistrer",
-  "tabsAddedMessage": "Onglets ajoutés au dossier"
+  "tabsAddedMessage": "Onglets ajoutés au dossier",
+  "optionsSavedMessage": "Options enregistrées"
 }
